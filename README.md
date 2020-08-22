@@ -10,3 +10,14 @@ Dungeons & Depictions is a Dungeons & Dragons (D&D) character art commission sit
 
 Credits:
 
+Google Fonts
+https://fonts.google.com/specimen/MedievalSharp?query=mediev&sidebar.open=true&selection.family=MedievalSharp
+
+Font Awesome
+https://fontawesome.com/
+
+Popper
+https://popper.js.org/
+
+Bootstrap
+https://getbootstrap.com/
