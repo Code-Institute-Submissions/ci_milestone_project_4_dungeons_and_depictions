@@ -27,3 +27,6 @@ https://www.tradegecko.com/free-tools/sku-generator
 
 Fantasy Name Generator
 https://www.fantasynamegenerators.com/
+
+GIMP Photo Editor
+https://www.gimp.org/
