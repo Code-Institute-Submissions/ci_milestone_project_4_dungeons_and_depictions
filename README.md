@@ -21,3 +21,9 @@ https://popper.js.org/
 
 Bootstrap
 https://getbootstrap.com/
+
+Trade Gecko - SKU Generator
+https://www.tradegecko.com/free-tools/sku-generator
+
+Fantasy Name Generator
+https://www.fantasynamegenerators.com/

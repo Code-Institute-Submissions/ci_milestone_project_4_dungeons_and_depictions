@@ -1,0 +1,146 @@
+[
+  {
+    "pk": 1,
+    "model": "commissions.commission",
+    "fields": {
+      "sku": "POS-BARB-HUM-MAL",
+      "name": "Barbarian Human Male",
+      "description": "Yetvilf Bearmane - A human male barbarian commissioned by Kevin Kelleher.",
+      "price": 14.99,
+      "category": 1,
+      "image": "barbarian_human_male.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "commissions.commission",
+    "fields": {
+      "sku": "POS-BARD-HUM-MAL",
+      "name": "Bard Human Male",
+      "description": "Clement Fairnote - A human male bard commissione by Dan Whelan.",
+      "price": 14.99,
+      "category": 2,
+      "image": "bard_human_male.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "comsssions.commission",
+    "fields": {
+      "sku": "POS-CLER-HUM-FEM",
+      "name": "Cleric Human Female",
+      "description": "Grace Helmsguard - A human female cleric commissioned by Helen Keegan.",
+      "price": 14.99,
+      "category": 3,
+      "image": "cleric_human_female.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "comsssions.commission",
+    "fields": {
+      "sku": "POS-DRUI-ELF-FEM",
+      "name": "Druid Elf Female",
+      "description": "Shalia Vathana - An elven female druid commissioned by Ellen McCaggue.",
+      "price": 14.99,
+      "category": 4,
+      "image": "druid_elf_female.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "comsssions.commission",
+    "fields": {
+      "sku": "POS-FIGH-HAO-FEM",
+      "name": "Fighter Half-orc Female",
+      "description": "Dura Bonepick - A half-orc female fighter commissioned by Clodagh Gannon.",
+      "price": 14.99,
+      "category": 5,
+      "image": "fighter_halforc_female.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "comsssions.commission",
+    "fields": {
+      "sku": "POS-MONK-TIE-MAL",
+      "name": "Monk Tiefling Male",
+      "description": "Silent Chasm - A tiefling male monk commissioned by Denis Kilty.",
+      "price": 14.99,
+      "category": 6,
+      "image": "monk_tiefling_male.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "comsssions.commission",
+    "fields": {
+      "sku": "POS-PALA-DRA-MAL",
+      "name": "Paladin Dragonborn Male",
+      "description": "Brightscale - A dragonborn male paladin commissioned by Byron Smyth.",
+      "price": 14.99,
+      "category": 7,
+      "image": "paladin_dragonborn_male.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "comsssions.commission",
+    "fields": {
+      "sku": "POS-RANG-DWA-MAL",
+      "name": "Ranger Dwarf Male",
+      "description": "Dourerlum Bluntcoat - A dwarven male ranger commissioned by Dan Cornejo.",
+      "price": 14.99,
+      "category": 8,
+      "image": "ranger_dwarf_male.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "comsssions.commission",
+    "fields": {
+      "sku": "POS-ROGU-GNO-MAL",
+      "name": "Rogue Gnome Male",
+      "description": "Nybbnit Swift - A gnome male rogue commissioned by Stephen McGuinness.",
+      "price": 14.99,
+      "category": 9,
+      "image": "rogue_gnome_male.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "comsssions.commission",
+    "fields": {
+      "sku": "POS-SORC-HAE-MAL",
+      "name": "Sorcerer Half-elf Male",
+      "description": "Ryul Crakrana - A half-elven male sorcerer commissioned by Ross Murphy.",
+      "price": 14.99,
+      "category": 10,
+      "image": "sorcerer_halfelf_male.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "comsssions.commission",
+    "fields": {
+      "sku": "POS-WARL-HAF-FEM",
+      "name": "Warlock Halfling Female",
+      "description": "Pandora Hlothran - A halfling female warlock commissioned by Laura Brogan.",
+      "price": 14.99,
+      "category": 11,
+      "image": "warlock_halfling_female.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "commissions.commission",
+    "fields": {
+      "sku": "POS-WIZA-HUM-FEM",
+      "name": "Wizard Human Female",
+      "description": "Agatha Scripetorn - A human female wizard commissioned by Emily Hand.",
+      "price": 14.99,
+      "category": 12,
+      "image": "wizard_human_female.jpg"
+    }
+  }
+]

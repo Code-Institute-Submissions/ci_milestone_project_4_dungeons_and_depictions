@@ -1,0 +1,62 @@
+[
+  {
+    "pk": 1,
+    "model": "showcase.category",
+    "fields": { "name": "barbarian", "friendly_name": "Barbarian" }
+  },
+  {
+    "pk": 2,
+    "model": "showcase.category",
+    "fields": { "name": "bard", "friendly_name": "Bard" }
+  },
+  {
+    "pk": 3,
+    "model": "showcase.category",
+    "fields": { "name": "cleric", "friendly_name": "Cleric" }
+  },
+  {
+    "pk": 4,
+    "model": "showcase.category",
+    "fields": { "name": "druid", "friendly_name": "Druid" }
+  },
+  {
+    "pk": 5,
+    "model": "showcase.category",
+    "fields": { "name": "fighter", "friendly_name": "Fighter" }
+  },
+  {
+    "pk": 6,
+    "model": "showcase.category",
+    "fields": { "name": "monk", "friendly_name": "Monk" }
+  },
+  {
+    "pk": 7,
+    "model": "showcase.category",
+    "fields": { "name": "paladin", "friendly_name": "Paladin" }
+  },
+  {
+    "pk": 8,
+    "model": "showcase.category",
+    "fields": { "name": "ranger", "friendly_name": "Ranger" }
+  },
+  {
+    "pk": 9,
+    "model": "showcase.category",
+    "fields": { "name": "rogue", "friendly_name": "Rogue" }
+  },
+  {
+    "pk": 10,
+    "model": "showcase.category",
+    "fields": { "name": "sorcerer", "friendly_name": "Sorcerer" }
+  },
+  {
+    "pk": 11,
+    "model": "showcase.category",
+    "fields": { "name": "warlock", "friendly_name": "Warlock" }
+  },
+  {
+    "pk": 12,
+    "model": "showcase.category",
+    "fields": { "name": "wizard", "friendly_name": "Wizard" }
+  }
+]
