@@ -6,10 +6,10 @@ body {
     background: url('/media/background_knight_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: red;
+    color: black;
     font-family: 'MedievalSharp', cursive;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 /* from Bulma */
