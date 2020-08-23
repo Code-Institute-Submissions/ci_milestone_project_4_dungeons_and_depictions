@@ -1,7 +1,7 @@
 [
   {
     "pk": 1,
-    "model": "commissions.commission",
+    "model": "showcase.commission",
     "fields": {
       "sku": "POS-BARB-HUM-MAL",
       "name": "Barbarian Human Male",
@@ -13,7 +13,7 @@
   },
   {
     "pk": 2,
-    "model": "commissions.commission",
+    "model": "showcase.commission",
     "fields": {
       "sku": "POS-BARD-HUM-MAL",
       "name": "Bard Human Male",
@@ -25,7 +25,7 @@
   },
   {
     "pk": 3,
-    "model": "comsssions.commission",
+    "model": "showcase.commission",
     "fields": {
       "sku": "POS-CLER-HUM-FEM",
       "name": "Cleric Human Female",
@@ -37,7 +37,7 @@
   },
   {
     "pk": 4,
-    "model": "comsssions.commission",
+    "model": "showcase.commission",
     "fields": {
       "sku": "POS-DRUI-ELF-FEM",
       "name": "Druid Elf Female",
@@ -49,7 +49,7 @@
   },
   {
     "pk": 5,
-    "model": "comsssions.commission",
+    "model": "showcase.commission",
     "fields": {
       "sku": "POS-FIGH-HAO-FEM",
       "name": "Fighter Half-orc Female",
@@ -61,7 +61,7 @@
   },
   {
     "pk": 6,
-    "model": "comsssions.commission",
+    "model": "showcase.commission",
     "fields": {
       "sku": "POS-MONK-TIE-MAL",
       "name": "Monk Tiefling Male",
@@ -73,7 +73,7 @@
   },
   {
     "pk": 7,
-    "model": "comsssions.commission",
+    "model": "showcase.commission",
     "fields": {
       "sku": "POS-PALA-DRA-MAL",
       "name": "Paladin Dragonborn Male",
@@ -85,7 +85,7 @@
   },
   {
     "pk": 8,
-    "model": "comsssions.commission",
+    "model": "showcase.commission",
     "fields": {
       "sku": "POS-RANG-DWA-MAL",
       "name": "Ranger Dwarf Male",
@@ -97,7 +97,7 @@
   },
   {
     "pk": 9,
-    "model": "comsssions.commission",
+    "model": "showcase.commission",
     "fields": {
       "sku": "POS-ROGU-GNO-MAL",
       "name": "Rogue Gnome Male",
@@ -109,7 +109,7 @@
   },
   {
     "pk": 10,
-    "model": "comsssions.commission",
+    "model": "showcase.commission",
     "fields": {
       "sku": "POS-SORC-HAE-MAL",
       "name": "Sorcerer Half-elf Male",
@@ -121,7 +121,7 @@
   },
   {
     "pk": 11,
-    "model": "comsssions.commission",
+    "model": "showcase.commission",
     "fields": {
       "sku": "POS-WARL-HAF-FEM",
       "name": "Warlock Halfling Female",
@@ -133,7 +133,7 @@
   },
   {
     "pk": 12,
-    "model": "commissions.commission",
+    "model": "showcase.commission",
     "fields": {
       "sku": "POS-WIZA-HUM-FEM",
       "name": "Wizard Human Female",
