@@ -33,3 +33,6 @@ https://www.gimp.org/
 
 Stack Overflow for lesson on linebreaks.
 https://stackoverflow.com/questions/37133336/new-line-on-django-admin-text-field?rq=1
+
+CSS-tricks.com
+https://css-tricks.com/snippets/css/css-triangle/
