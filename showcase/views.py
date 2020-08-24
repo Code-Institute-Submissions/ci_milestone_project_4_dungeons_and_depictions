@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
-from .models import Commission
+from .models import Commission, Category
 
 # Create your views here.
 
@@ -11,8 +11,14 @@ def all_commissions(request):
 
     commissions = Commission.objects.all()
     query = None
+    categories = None
 
     if request.GET:
+        if 'category' in request.GET:
+            categories = request.GET['category'].split(',')
+            commissions = commissions.filter(category__name__in=categories)
+            categories = Category.objects.filter(name__in=categories)
+
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -25,6 +31,7 @@ def all_commissions(request):
     context = {
         'commissions': commissions,
         'search_term': query,
+        'current_categories': categories,
     }
 
     return render(request, 'commissions/commissions.html', context)

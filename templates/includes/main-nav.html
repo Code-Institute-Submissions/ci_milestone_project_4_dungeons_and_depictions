@@ -6,11 +6,27 @@
             </a>
         </li>
 
-        <li class="nav-item ">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'commissions' %}" aria-haspopup="true" aria-expanded="false">
-                Showcase
-            </a>
-        </li>
+		<li class="nav-item dropdown">
+			<a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-commissions-link"
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Showcase
+			</a>
+			<div class="dropdown-menu border-0" aria-labelledby="all-commissions-link">
+				<a href="{% url 'commissions' %}?category=barbarian" class="dropdown-item">Barbarian</a>
+				<a href="{% url 'commissions' %}?category=bard" class="dropdown-item">Bard</a>
+				<a href="{% url 'commissions' %}?category=cleric" class="dropdown-item">Cleric</a>
+				<a href="{% url 'commissions' %}?category=druid" class="dropdown-item">Druid</a>
+				<a href="{% url 'commissions' %}?category=fighter" class="dropdown-item">Fighter</a>
+				<a href="{% url 'commissions' %}?category=monk" class="dropdown-item">Monk</a>
+				<a href="{% url 'commissions' %}?category=paladin" class="dropdown-item">Paladin</a>
+				<a href="{% url 'commissions' %}?category=ranger" class="dropdown-item">Ranger</a>
+				<a href="{% url 'commissions' %}?category=rogue" class="dropdown-item">Rogue</a>
+				<a href="{% url 'commissions' %}?category=sorcerer" class="dropdown-item">Sorcerer</a>
+				<a href="{% url 'commissions' %}?category=warlock" class="dropdown-item">Warlock</a>
+				<a href="{% url 'commissions' %}?category=wizard" class="dropdown-item">Wizard</a>
+				<a href="{% url 'commissions' %}" class="dropdown-item">All Classes</a>
+			</div>
+		</li>
 
         <li class="nav-item">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" aria-haspopup="true" aria-expanded="false">
