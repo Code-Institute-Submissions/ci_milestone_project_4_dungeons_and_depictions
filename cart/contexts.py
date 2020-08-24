@@ -12,13 +12,13 @@ def cart_contents(request):
     commission_count = 0
     cart = request.session.get('cart', {})
 
-    for item_id, quantity in cart.items():
+    for item_id, item_data in cart.items():
         commission = get_object_or_404(Commission, pk=item_id)
-        total += quantity * commission.price
-        commission_count += quantity
+        total += item_data * commission.price
+        commission_count += item_data
         cart_items.append({
             'item_id': item_id,
-            'quantity': quantity,
+            'quantity': item_data,
             'commission': commission,
         })
 
