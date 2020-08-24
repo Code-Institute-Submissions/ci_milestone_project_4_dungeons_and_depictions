@@ -30,3 +30,6 @@ https://www.fantasynamegenerators.com/
 
 GIMP Photo Editor
 https://www.gimp.org/
+
+Stack Overflow for lesson on linebreaks.
+https://stackoverflow.com/questions/37133336/new-line-on-django-admin-text-field?rq=1

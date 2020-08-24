@@ -30,7 +30,7 @@
                 <div class="commission-details-container mb-5 mt-md-5">
                     <p class="mb-0">{{ commission.name }}</p>
                     <p class="lead mb-0 text-left font-weight-bold">${{ commission.price }}</p>
-                    <p class="mt-3">{{ commission.description }}</p>
+                    <p class="mt-3">{{ commission.description|linebreaks }}</p>
                 </div>
             </div>
         </div>
