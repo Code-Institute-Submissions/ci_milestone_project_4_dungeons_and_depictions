@@ -5,7 +5,7 @@
     "fields": {
       "sku": "POS-BARB-HUM-MAL",
       "name": "Barbarian Human Male",
-      "description": "Yetvilf Bearmane - A human male barbarian commissioned by Kevin Kelleher.",
+      "description": "Yetvilf Bearmane\n\rA human male barbarian.\n\rCommissioned by Kevin Kelleher.\n\rAvailable as an A3 poster on matte paper.",
       "price": 14.99,
       "category": 1,
       "image": "barbarian_human_male.jpg"
@@ -15,132 +15,276 @@
     "pk": 2,
     "model": "showcase.commission",
     "fields": {
-      "sku": "POS-BARD-HUM-MAL",
-      "name": "Bard Human Male",
-      "description": "Clement Fairnote - A human male bard commissione by Dan Whelan.",
+      "sku": "POS-BARB-DWA-FEM",
+      "name": "Barbarian Dwarf Female",
+      "description": "Gikhetrud Beastborn\n\rA dwarven female barbarian.\n\rCommissioned by Amy Buckely.\n\rAvailable as an A3 poster on matte paper.",
       "price": 14.99,
-      "category": 2,
-      "image": "bard_human_male.jpg"
+      "category": 1,
+      "image": "barbarian_dwarf_female.jpg"
     }
   },
   {
     "pk": 3,
     "model": "showcase.commission",
     "fields": {
-      "sku": "POS-CLER-HUM-FEM",
-      "name": "Cleric Human Female",
-      "description": "Grace Helmsguard - A human female cleric commissioned by Helen Kirwan.",
+      "sku": "POS-BARD-HUM-MAL",
+      "name": "Bard Human Male",
+      "description": "Clement Fairnote\n\rA human male bard.\n\rCommissioned by Dan Whelan.\n\rAvailable as an A3 poster on matte paper.",
       "price": 14.99,
-      "category": 3,
-      "image": "cleric_human_female.jpg"
+      "category": 2,
+      "image": "bard_human_male.jpg"
     }
   },
   {
     "pk": 4,
     "model": "showcase.commission",
     "fields": {
-      "sku": "POS-DRUI-ELF-FEM",
-      "name": "Druid Elf Female",
-      "description": "Shalia Vathana - An elven female druid commissioned by Ellen McCaggue.",
+      "sku": "POS-BARD-DRA-FEM",
+      "name": "Bard Dragonborn Female",
+      "description": "Enshea Goldenscale\n\rA dragonborn female bard.\n\rCommissioned by Kiera O'Farrell.\n\rAvailable as an A3 poster on matte paper.",
       "price": 14.99,
-      "category": 4,
-      "image": "druid_elf_female.jpg"
+      "category": 2,
+      "image": "bard_dragonborn_female.jpg"
     }
   },
   {
     "pk": 5,
     "model": "showcase.commission",
     "fields": {
-      "sku": "POS-FIGH-HAO-FEM",
-      "name": "Fighter Half-orc Female",
-      "description": "Dura Bonepick - A half-orc female fighter commissioned by Clodagh Gannon.",
+      "sku": "POS-CLER-HUM-FEM",
+      "name": "Cleric Human Female",
+      "description": "Grace Helmsguard\n\rA human female cleric.\n\rCommissioned by Helen Kirwan.\n\rAvailable as an A3 poster on matte paper.",
       "price": 14.99,
-      "category": 5,
-      "image": "fighter_halforc_female.jpg"
+      "category": 3,
+      "image": "cleric_human_female.jpg"
     }
   },
   {
     "pk": 6,
     "model": "showcase.commission",
     "fields": {
-      "sku": "POS-MONK-TIE-MAL",
-      "name": "Monk Tiefling Male",
-      "description": "Silent Chasm - A tiefling male monk commissioned by Denis Kilty.",
+      "sku": "POS-CLER-GNO-MAL",
+      "name": "Cleric Gnome Male",
+      "description": "Snainsbep Macebound\n\rA gnome male cleric.\n\rCommissioned by Aidan Mulvey.\n\rAvailable as an A3 poster on matte paper.",
       "price": 14.99,
-      "category": 6,
-      "image": "monk_tiefling_male.jpg"
+      "category": 3,
+      "image": "cleric_gnome_male.jpg"
     }
   },
   {
     "pk": 7,
     "model": "showcase.commission",
     "fields": {
-      "sku": "POS-PALA-DRA-MAL",
-      "name": "Paladin Dragonborn Male",
-      "description": "Brightscale - A dragonborn male paladin commissioned by Byron Smyth.",
+      "sku": "POS-DRUI-ELF-FEM",
+      "name": "Druid Elf Female",
+      "description": "Shalia Vathana\n\rAn elven female druid.\n\rCommissioned by Ellen McCaggue.\n\rAvailable as an A3 poster on matte paper.",
       "price": 14.99,
-      "category": 7,
-      "image": "paladin_dragonborn_male.jpg"
+      "category": 4,
+      "image": "druid_elf_female.jpg"
     }
   },
   {
     "pk": 8,
     "model": "showcase.commission",
     "fields": {
-      "sku": "POS-RANG-DWA-MAL",
-      "name": "Ranger Dwarf Male",
-      "description": "Dourerlum Bluntcoat - A dwarven male ranger commissioned by Dan Cornejo.",
+      "sku": "POS-DRUI-TIE-MAL",
+      "name": "Druid Tiefling Male",
+      "description": "Willowscar Demonborn\n\rA teifling male druid.\n\rCommissioned by Ciaran Donnelly.\n\rAvailable as an A3 poster on matte paper.",
       "price": 14.99,
-      "category": 8,
-      "image": "ranger_dwarf_male.jpg"
+      "category": 4,
+      "image": "druid_tiefling_male.jpg"
     }
   },
   {
     "pk": 9,
     "model": "showcase.commission",
     "fields": {
-      "sku": "POS-ROGU-GNO-MAL",
-      "name": "Rogue Gnome Male",
-      "description": "Nybbnit Swift - A gnome male rogue commissioned by Stephen McGuinness.",
+      "sku": "POS-FIGH-HAO-FEM",
+      "name": "Fighter Half-Orc Female",
+      "description": "Dura Bonepick\n\rA half-orcish female fighter.\n\rCommissioned by Clodagh Gannon.\n\rAvailable as an A3 poster on matte paper.",
       "price": 14.99,
-      "category": 9,
-      "image": "rogue_gnome_male.jpg"
+      "category": 5,
+      "image": "fighter_halforc_female.jpg"
     }
   },
   {
     "pk": 10,
     "model": "showcase.commission",
     "fields": {
-      "sku": "POS-SORC-HAE-MAL",
-      "name": "Sorcerer Half-elf Male",
-      "description": "Ryul Crakrana - A half-elven male sorcerer commissioned by Ross Murphy.",
+      "sku": "POS-FIGH-ELF-MAL",
+      "name": "Fighter Elf Male",
+      "description": "Flinar Beizeiros\n\rAn elven male fighter.\n\rCommissioned by Ronan Lee.\n\rAvailable as an A3 poster on matte paper.",
       "price": 14.99,
-      "category": 10,
-      "image": "sorcerer_halfelf_male.jpg"
+      "category": 5,
+      "image": "fighter_elf_male.jpg"
     }
   },
   {
     "pk": 11,
     "model": "showcase.commission",
     "fields": {
-      "sku": "POS-WARL-HAF-FEM",
-      "name": "Warlock Halfling Female",
-      "description": "Pandora Hlothran - A halfling female warlock commissioned by Laura Brogan.",
+      "sku": "POS-MONK-TIE-MAL",
+      "name": "Monk Tiefling Male",
+      "description": "Silent Chasm\n\rA tiefling male monk.\n\rCommissioned by Denis Kilty.\n\rAvailable as an A3 poster on matte paper.",
       "price": 14.99,
-      "category": 11,
-      "image": "warlock_halfling_female.jpg"
+      "category": 6,
+      "image": "monk_tiefling_male.jpg"
     }
   },
   {
     "pk": 12,
     "model": "showcase.commission",
     "fields": {
+      "sku": "POS-MONK-HAF-FEM",
+      "name": "Monk Halfling Female",
+      "description": "Saffron Harfoot\n\rA halfling female monk.\n\rCommissioned by Aria Keane.\n\rAvailable as an A3 poster on matte paper.",
+      "price": 14.99,
+      "category": 6,
+      "image": "monk_halfling_female.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "showcase.commission",
+    "fields": {
+      "sku": "POS-PALA-DRA-MAL",
+      "name": "Paladin Dragonborn Male",
+      "description": "Brightscale Stormborn\n\rA dragonborn male paladin.\n\rCommissioned by Byron Smyth.\n\rAvailable as an A3 poster on matte paper.",
+      "price": 14.99,
+      "category": 7,
+      "image": "paladin_dragonborn_male.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "showcase.commission",
+    "fields": {
+      "sku": "POS-PALA-HAO-FEM",
+      "name": "Paladin Half-Orc Female",
+      "description": "Shuzra 'The Redeemed'\n\rA half-orcish female paladin.\n\rCommissioned by Ciara Maguire.\n\rAvailable as an A3 poster on matte paper.",
+      "price": 14.99,
+      "category": 7,
+      "image": "paladin_halforc_female.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "showcase.commission",
+    "fields": {
+      "sku": "POS-RANG-DWA-MAL",
+      "name": "Ranger Dwarf Male",
+      "description": "Dourerlum Bluntcoat\n\rA dwarven male ranger.\n\rCommissioned by Dan Cornejo.\n\rAvailable as an A3 poster on matte paper.",
+      "price": 14.99,
+      "category": 8,
+      "image": "ranger_dwarf_male.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "showcase.commission",
+    "fields": {
+      "sku": "POS-RANG-HAE-FEM",
+      "name": "Ranger Half-Elf Female",
+      "description": "Shalana Reysatra\n\rA half-elven female ranger.\n\rCommissioned by Sarah Tyndall.\n\rAvailable as an A3 poster on matte paper.",
+      "price": 14.99,
+      "category": 8,
+      "image": "ranger_halfelf_female.jpg"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "showcase.commission",
+    "fields": {
+      "sku": "POS-ROGU-GNO-MAL",
+      "name": "Rogue Gnome Male",
+      "description": "Nybbnit Swift\n\rA gnome male rogue.\n\rCommissioned by Stephen McGuinness.\n\rAvailable as an A3 poster on matte paper.",
+      "price": 14.99,
+      "category": 9,
+      "image": "rogue_gnome_male.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "showcase.commission",
+    "fields": {
+      "sku": "POS-ROGU-TIE-FEM",
+      "name": "Rogue Teifling Female",
+      "description": "Nybbnit Swift\n\rA teifling female rogue.\n\rCommissioned by Tara O'Rourke.\n\rAvailable as an A3 poster on matte paper.",
+      "price": 14.99,
+      "category": 9,
+      "image": "rogue_tiefling_female.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "showcase.commission",
+    "fields": {
+      "sku": "POS-SORC-HAE-MAL",
+      "name": "Sorcerer Half-Elf Male",
+      "description": "Ryul Crakrana\n\rA half-elven male sorcerer.\n\rCommissioned by Ross Murphy.\n\rAvailable as an A3 poster on matte paper.",
+      "price": 14.99,
+      "category": 10,
+      "image": "sorcerer_halfelf_male.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "showcase.commission",
+    "fields": {
+      "sku": "POS-SORC-DWA-FEM",
+      "name": "Sorcerer Dwarf Female",
+      "description": "Dogneline Hardfury\n\rA dwarven female sorcerer.\n\rCommissioned by Anne O'Connor.\n\rAvailable as an A3 poster on matte paper.",
+      "price": 14.99,
+      "category": 10,
+      "image": "sorcerer_dwarf_female.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "showcase.commission",
+    "fields": {
+      "sku": "POS-WARL-HAF-FEM",
+      "name": "Warlock Halfling Female",
+      "description": "Pandora Hlothran\n\rA halfling female warlock.\n\rCommissioned by Laura Brogan.\n\rAvailable as an A3 poster on matte paper.",
+      "price": 14.99,
+      "category": 11,
+      "image": "warlock_halfling_female.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "showcase.commission",
+    "fields": {
+      "sku": "POS-WARL-DRA-MAL",
+      "name": "Warlock Dragonborn Male",
+      "description": "Xezar Cinderclaws\n\rA dragonborn male warlock.\n\rCommissioned by Sean McCarthy.\n\rAvailable as an A3 poster on matte paper.",
+      "price": 14.99,
+      "category": 11,
+      "image": "warlock_dragonborn_male.jpg"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "showcase.commission",
+    "fields": {
       "sku": "POS-WIZA-HUM-FEM",
       "name": "Wizard Human Female",
-      "description": "Agatha Scripetorn - A human female wizard commissioned by Emily Hand.",
+      "description": "Agatha Scripetorn\n\rA human female wizard.\n\rCommissioned by Emily Hand.\n\rAvailable as an A3 poster on matte paper.",
       "price": 14.99,
       "category": 12,
       "image": "wizard_human_female.jpg"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "showcase.commission",
+    "fields": {
+      "sku": "POS-WIZA-ELF-MAL",
+      "name": "Wizard Elf Male",
+      "description": "Malon Ernala\n\rA elven male wizard.\n\rCommissioned by Mark Cummins.\n\rAvailable as an A3 poster on matte paper.",
+      "price": 14.99,
+      "category": 12,
+      "image": "wizard_elf_male.jpg"
     }
   }
 ]
