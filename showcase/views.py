@@ -90,3 +90,27 @@ def add_commission(request):
     }
 
     return render(request, template, context)
+
+
+def edit_commission(request, commission_id):
+    """ Edit a commission in the showcase """
+    commission = get_object_or_404(Commission, pk=commission_id)
+    if request.method == 'POST':
+        form = CommissionForm(request.POST, request.FILES, instance=commission)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated commission!')
+            return redirect(reverse('commission_detail', args=[commission.id]))
+        else:
+            messages.error(request, 'Failed to update commission. Please ensure the form is valid.')
+    else:
+        form = CommissionForm(instance=commission)
+        messages.info(request, f'You are editing {commission.name}')
+
+    template = 'commissions/edit_commission.html'
+    context = {
+        'form': form,
+        'commission': commission,
+    }
+
+    return render(request, template, context)
