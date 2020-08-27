@@ -36,3 +36,9 @@ https://stackoverflow.com/questions/37133336/new-line-on-django-admin-text-field
 
 CSS-tricks.com
 https://css-tricks.com/snippets/css/css-triangle/
+
+
+Character Artwork:
+
+https://www.pinterest.ie/pin/169659110948340088/
+https://imgur.com/gallery/6ZsUUWP
