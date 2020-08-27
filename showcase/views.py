@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
@@ -70,8 +71,13 @@ def commission_detail(request, commission_id):
     return render(request, 'commissions/commission_detail.html', context)
 
 
+@login_required
 def add_commission(request):
     """ Add a commission to the showcase """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only the showcase owner can do that.')
+        return redirect(reverse('home'))
+
     if request.method == 'POST':
         form = CommissionForm(request.POST, request.FILES)
         if form.is_valid():
@@ -92,8 +98,13 @@ def add_commission(request):
     return render(request, template, context)
 
 
+@login_required
 def edit_commission(request, commission_id):
     """ Edit a commission in the showcase """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only the showcase owner can do that.')
+        return redirect(reverse('home'))
+
     commission = get_object_or_404(Commission, pk=commission_id)
     if request.method == 'POST':
         form = CommissionForm(request.POST, request.FILES, instance=commission)
@@ -116,8 +127,13 @@ def edit_commission(request, commission_id):
     return render(request, template, context)
 
 
+@login_required
 def delete_commission(request, commission_id):
     """ Delete a commission from the showcase """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only the showcase owner can do that.')
+        return redirect(reverse('home'))
+
     commission = get_object_or_404(Commission, pk=commission_id)
     commission.delete()
     messages.success(request, 'Commission deleted!')
