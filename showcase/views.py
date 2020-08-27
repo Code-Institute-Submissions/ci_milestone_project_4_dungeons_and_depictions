@@ -1,7 +1,10 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
+from django.db.models.functions import Lower
+
 from .models import Commission, Category
+from .forms import CommissionForm
 
 # Create your views here.
 
@@ -65,3 +68,25 @@ def commission_detail(request, commission_id):
     }
 
     return render(request, 'commissions/commission_detail.html', context)
+
+
+def add_commission(request):
+    """ Add a commission to the showcase """
+    if request.method == 'POST':
+        form = CommissionForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully added commission!')
+            return redirect(reverse('add_commission'))
+        else:
+            messages.error(
+                request, 'Failed to add commission. Please ensure the form is valid.')
+    else:
+        form = CommissionForm()
+
+    template = 'commissions/add_commission.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)

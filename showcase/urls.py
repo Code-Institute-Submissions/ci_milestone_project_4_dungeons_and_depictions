@@ -3,5 +3,6 @@ from . import views
 
 urlpatterns = [
     path('', views.all_commissions, name='commissions'),
-    path('<commission_id>', views.commission_detail, name='commission_detail'),
+    path('<int:commission_id>/', views.commission_detail, name='commission_detail'),
+    path('add/', views.add_commission, name='add_commission'),
 ]

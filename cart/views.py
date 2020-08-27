@@ -46,7 +46,7 @@ def adjust_cart(request, item_id):
             request, f'Updated {commission.name} quantity to {cart[item_id]}')
     else:
         cart.pop(item_id)
-        messages.success(request, f'Removed {commission.name} from your bag')
+        messages.success(request, f'Removed {commission.name} from your cart')
 
     request.session['cart'] = cart
     return redirect(reverse('view_cart'))
@@ -60,7 +60,7 @@ def remove_from_cart(request, item_id):
         cart = request.session.get('cart', {})
 
         cart.pop(item_id)
-        messages.success(request, f'Removed {commission.name} from your bag')
+        messages.success(request, f'Removed {commission.name} from your cart')
 
         request.session['cart'] = cart
         return HttpResponse(status=200)
