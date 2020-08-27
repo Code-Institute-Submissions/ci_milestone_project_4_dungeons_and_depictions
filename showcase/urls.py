@@ -6,4 +6,5 @@ urlpatterns = [
     path('<int:commission_id>/', views.commission_detail, name='commission_detail'),
     path('add/', views.add_commission, name='add_commission'),
     path('edit/<int:commission_id>/', views.edit_commission, name='edit_commission'),
+    path('delete/<int:commission_id>/', views.delete_commission, name='delete_commission'),
 ]

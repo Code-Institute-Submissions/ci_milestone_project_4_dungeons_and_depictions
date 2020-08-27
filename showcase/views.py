@@ -75,9 +75,9 @@ def add_commission(request):
     if request.method == 'POST':
         form = CommissionForm(request.POST, request.FILES)
         if form.is_valid():
-            form.save()
+            commission = form.save()
             messages.success(request, 'Successfully added commission!')
-            return redirect(reverse('add_commission'))
+            return redirect(reverse('commission_detail', args=[commission.id]))
         else:
             messages.error(
                 request, 'Failed to add commission. Please ensure the form is valid.')
@@ -114,3 +114,11 @@ def edit_commission(request, commission_id):
     }
 
     return render(request, template, context)
+
+
+def delete_commission(request, commission_id):
+    """ Delete a commission from the showcase """
+    commission = get_object_or_404(Commission, pk=commission_id)
+    commission.delete()
+    messages.success(request, 'Commission deleted!')
+    return redirect(reverse('commissions'))
