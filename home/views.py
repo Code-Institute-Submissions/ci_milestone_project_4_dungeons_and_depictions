@@ -1,6 +1,5 @@
 from django.shortcuts import render
-
-# Create your views here.
+from .forms import ContactForm
 
 
 def index(request):
@@ -11,3 +10,11 @@ def index(request):
 def about(request):
     """ This view returns the about page """
     return render(request, 'home/about.html')
+
+
+def contact(request):
+    form_class = ContactForm
+
+    return render(request, 'home/contact.html', {
+        'form': form_class,
+    })
