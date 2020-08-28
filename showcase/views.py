@@ -147,7 +147,7 @@ def request_commission(request):
         form = RequestForm(request.POST, request.FILES)
         if form.is_valid():
             commission = form.save()
-            messages.success(request, 'Commission request successfully added to cart!')
+            messages.success(request, 'Commission request successfully, please add to cart if satisfied!')
             return redirect(reverse('commission_detail', args=[commission.id]))
         else:
             messages.error(
