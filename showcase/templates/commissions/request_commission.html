@@ -34,6 +34,7 @@
 				<h4>Prices</h4>
 				<ul>
 					<li>$50 per commission</li>
+					<li><strong>NOT</strong> including delivery fee of 15%</li>
 				</ul>
 			</div>
 		</div>
@@ -90,10 +91,5 @@
             var file = $('#new-image')[0].files[0];
             $('#filename').text(`Image will be set to: ${file.name}`);
         });
-    </script>
-    <script type="text/javascript">
-		if(window.location.href.indexOf("request") > -1) {
-			document.getElementById("request-price").value = "50.00";
-		}
     </script>
 {% endblock %}

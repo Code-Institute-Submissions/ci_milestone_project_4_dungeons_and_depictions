@@ -27,7 +27,7 @@ class RequestForm(forms.ModelForm):
 
     class Meta:
         model = Commission
-        exclude = ['sku']
+        exclude = ['sku', 'price']
 
     image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
 
@@ -39,6 +39,7 @@ class RequestForm(forms.ModelForm):
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'border-black rounded-0'
 
+        # Delete if not used
         self.helper = FormHelper()
         self.helper.layout = Layout(
             Field('price', id="request-price"),
