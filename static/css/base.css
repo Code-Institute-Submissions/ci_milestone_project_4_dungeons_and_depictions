@@ -23,11 +23,19 @@ body {
     text-transform: uppercase;
 }
 
+.index-title {
+    font-size: 1.75em;
+}
+
+.index-subtitle {
+    font-size: 1.5em;
+}
+
 .main-logo-link {
     width: fit-content;
 }
 
-.shop-now-button {
+.view-showcase-button {
     background: black;
     color: white;
     min-width: 260px;
@@ -51,9 +59,9 @@ body {
     color: white !important;
 }
 
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
+.view-showcase-button:hover,
+.view-showcase-button:active,
+.view-showcase-button:focus,
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
