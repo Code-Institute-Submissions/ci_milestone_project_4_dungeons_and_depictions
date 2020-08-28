@@ -138,3 +138,26 @@ def delete_commission(request, commission_id):
     commission.delete()
     messages.success(request, 'Commission deleted!')
     return redirect(reverse('commissions'))
+
+
+@login_required
+def request_commission(request):
+    """ Allows users to request a commission """
+    if request.method == 'POST':
+        form = CommissionForm(request.POST, request.FILES)
+        if form.is_valid():
+            commission = form.save()
+            messages.success(request, 'Commission request successfully added to cart!')
+            return redirect(reverse('commission_detail', args=[commission.id]))
+        else:
+            messages.error(
+                request, 'Failed to request a commission. Please ensure the form is valid.')
+    else:
+        form = CommissionForm()
+
+    template = 'commissions/request_commission.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
