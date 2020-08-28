@@ -41,7 +41,8 @@ body {
     min-width: 260px;
 }
 
-.btn-black {
+.btn-black,
+#submit-id-submit {
     background: black;
     color: white;
 }
@@ -64,7 +65,10 @@ body {
 .view-showcase-button:focus,
 .btn-black:hover,
 .btn-black:active,
-.btn-black:focus {
+.btn-black:focus,
+#submit-id-submit,
+#submit-id-submit,
+#submit-id-submit {
     background: #222;
     color: white;
 }
