@@ -5,7 +5,7 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 
 from .models import Commission, Category
-from .forms import CommissionForm
+from .forms import CommissionForm, RequestForm
 
 # Create your views here.
 
@@ -144,7 +144,7 @@ def delete_commission(request, commission_id):
 def request_commission(request):
     """ Allows users to request a commission """
     if request.method == 'POST':
-        form = CommissionForm(request.POST, request.FILES)
+        form = RequestForm(request.POST, request.FILES)
         if form.is_valid():
             commission = form.save()
             messages.success(request, 'Commission request successfully added to cart!')
@@ -153,7 +153,7 @@ def request_commission(request):
             messages.error(
                 request, 'Failed to request a commission. Please ensure the form is valid.')
     else:
-        form = CommissionForm()
+        form = RequestForm()
 
     template = 'commissions/request_commission.html'
     context = {

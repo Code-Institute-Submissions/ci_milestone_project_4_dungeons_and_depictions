@@ -34,6 +34,12 @@ https://www.gimp.org/
 Stack Overflow for lesson on linebreaks.
 https://stackoverflow.com/questions/37133336/new-line-on-django-admin-text-field?rq=1
 
+Stack Overflow for lesson on using javascript to check url.
+https://stackoverflow.com/questions/34649131/javascript-how-to-check-if-url-contains-a-word/34649157
+
+Stack Overflow for lesson on using javascript to set value of input field.
+https://stackoverflow.com/questions/7609130/set-the-value-of-an-input-field
+
 CSS-tricks.com
 https://css-tricks.com/snippets/css/css-triangle/
 
