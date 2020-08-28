@@ -48,3 +48,4 @@ Character Artwork:
 
 https://www.pinterest.ie/pin/169659110948340088/
 https://imgur.com/gallery/6ZsUUWP
+https://www.clipartkey.com/view/immxTJ_silhouette-ork-fighter-warrior-fantasy-silhouette-fighter/
