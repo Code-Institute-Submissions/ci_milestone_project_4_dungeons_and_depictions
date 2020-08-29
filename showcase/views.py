@@ -140,7 +140,6 @@ def delete_commission(request, commission_id):
     return redirect(reverse('commissions'))
 
 
-@login_required
 def request_commission(request):
     """ Allows users to request a commission """
     if request.method == 'POST':

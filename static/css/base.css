@@ -20,8 +20,8 @@ nav,
 /* Footer */
 
 .footer {
-    padding: 10px;
-    margin-top: 20px;
+    padding-top: 10px;
+    margin-top: 5px;
 }
 
 .footer-sections,
@@ -109,9 +109,9 @@ nav,
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus,
-#submit-id-submit,
-#submit-id-submit,
-#submit-id-submit {
+#submit-id-submit:hover,
+#submit-id-submit:active,
+#submit-id-submit:focus {
     background: #222;
     color: white;
 }
