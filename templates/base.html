@@ -154,6 +154,43 @@
 	{% block content %}
 	{% endblock %}
 	
+    <footer class="footer">
+        <div class="container">
+			<div class="row footer-sections">
+				<div class="col 4">
+					<span id="footer-copyright-standard">© 2020 Dungeons & Depictions</span>
+					<span id="footer-copyright-mobile">© 2020</span>
+                </div>
+				<div class="col 4">
+					<ul class="list-inline">
+						<li class="list-inline-item">
+							<a target="_blank"
+								href="https://www.facebook.com">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.instagram.com">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.pinterest.com">
+								<i class="fa fa-pinterest" aria-hidden="true"></i>
+								<span class="sr-only">Pinterest</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+                <div class="col 4">
+					<a target="_blank" href="https://github.com/dof-bull" rel="noopener">dof-bull</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 	{% block postloadjs %}
 	<script type="text/javascript">
 		$('.toast').toast('show');

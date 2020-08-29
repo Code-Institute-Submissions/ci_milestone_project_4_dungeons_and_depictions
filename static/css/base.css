@@ -10,6 +10,49 @@ body {
     font-family: 'MedievalSharp', cursive;
 }
 
+#main-nav,
+#topnav,
+nav,
+.footer {
+    background: #e7e7db !important;
+}
+
+/* Footer */
+
+.footer {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer-sections,
+.footer-sections a:link,
+.footer-sections a:visited,
+.footer-sections a:active,
+.footer-sections a:active {
+    padding: 2.5px;
+    text-align: center;
+    text-decoration: none;
+    color: #9d0a0e;
+}
+
+.footer-sections a:hover {
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  #footer-copyright-standard {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #footer-copyright-mobile {
+    visibility: hidden;
+    display: none;
+  }
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -317,10 +360,6 @@ input[name='q']::placeholder {
     .navbar-toggler {
         padding: .6rem .6rem;
         font-size: 1rem;
-    }
-
-    #delivery-banner h4 {
-        font-size: .9rem;
     }
 
     .btn.btn-outline-black.rounded-0,
