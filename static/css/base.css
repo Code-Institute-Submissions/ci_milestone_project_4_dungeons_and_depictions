@@ -36,14 +36,14 @@ body {
 }
 
 .view-showcase-button {
-    background: black;
+    background: #9d0a0e;
     color: white;
     min-width: 260px;
 }
 
 .btn-black,
 #submit-id-submit {
-    background: black;
+    background: #9d0a0e;
     color: white;
 }
 
@@ -56,7 +56,7 @@ body {
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background: #9d0a0e;
     color: white !important;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color: #9d0a0e !important;
 }
 
 .border-black {
