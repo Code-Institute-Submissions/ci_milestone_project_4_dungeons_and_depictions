@@ -28,7 +28,7 @@ class RequestForm(forms.ModelForm):
     class Meta:
         model = Commission
         exclude = ['sku', 'price', 'image']
-    
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         categories = Category.objects.all()
