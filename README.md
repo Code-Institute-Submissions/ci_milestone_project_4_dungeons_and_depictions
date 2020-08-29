@@ -43,8 +43,11 @@ https://stackoverflow.com/questions/7609130/set-the-value-of-an-input-field
 CSS-tricks.com
 https://css-tricks.com/snippets/css/css-triangle/
 
-Hello Web Books for quick tutorial on contact forms.
+Hello Web Books for the quick tutorial on contact forms.
 https://hellowebbooks.com/news/tutorial-setting-up-a-contact-form-with-django/
+
+Django Central for the tutorial on blog making.
+https://djangocentral.com/building-a-blog-application-with-django/
 
 
 Character Artwork:

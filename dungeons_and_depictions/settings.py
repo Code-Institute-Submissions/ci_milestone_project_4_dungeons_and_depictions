@@ -14,7 +14,7 @@ from pathlib import Path
 import os
 from os import path
 if path.exists("env.py"):
-  import env
+    import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "os.environ.get('SECRET_KEY')"
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -49,9 +49,11 @@ INSTALLED_APPS = [
     'cart',
     'checkout',
     'profiles',
+    'blog',
 
     # Other
     'crispy_forms',
+
 ]
 
 MIDDLEWARE = [
@@ -105,7 +107,7 @@ AUTHENTICATION_BACKENDS = [
 
 SITE_ID = 1
 
-# This allows the 'confirmation email' to show in console, delete before production.
+# This allows the 'confirmation email' to show in console, DELETE BEFORE PRODUCTION.
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
