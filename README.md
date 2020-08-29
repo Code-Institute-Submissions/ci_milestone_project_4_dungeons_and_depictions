@@ -49,6 +49,9 @@ https://hellowebbooks.com/news/tutorial-setting-up-a-contact-form-with-django/
 Django Central for the tutorial on blog making.
 https://djangocentral.com/building-a-blog-application-with-django/
 
+Django Central for the tutorial on adding a comment system.
+https://djangocentral.com/creating-comments-system-with-django/
+
 
 Character Artwork:
 
