@@ -26,6 +26,14 @@
 					<p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
 					<p class="card-text ">{{ object.content | safe }}</p>
 				</div>
+                <div class="col-12">
+                    <a href="{% url 'blog' %}" class="btn btn-outline-black rounded-0 mt-5">
+                        <span class="icon">
+                            <i class="fas fa-chevron-left"></i>
+                        </span>
+                        <span class="text-uppercase">Back to blogs</span>
+                    </a>
+                </div>
 			</div>
 		</div>
 	</div>
