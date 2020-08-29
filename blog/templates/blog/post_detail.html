@@ -55,11 +55,16 @@
                     </div>
                     {% else %}
                     <h3>Tell us what you think</h3>
-                    <form method="post">
-						{% csrf_token %}
-						{{ comment_form | crispy }}
-                        <button type="submit" class="btn btn-black rounded-0 btn-lg">Submit</button>
-                    </form>
+                        {% if user.is_authenticated %}
+                            <form method="post">
+                                {% csrf_token %}
+                                {{ comment_form | crispy }}
+                                <button type="submit" class="btn btn-black rounded-0 btn-lg">Submit</button>
+                            </form>
+						{% else %}
+                            <a class="text-info" href="{% url 'account_signup' %}">Create an account</a> or 
+                            <a class="text-info" href="{% url 'account_login' %}">login</a> to be able to comment.
+						{% endif %}
                     {% endif %}
                 </div>
             </div>

@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.views import generic
+from django.contrib import messages
 from .models import Post
 from .forms import CommentForm
 
@@ -30,6 +31,7 @@ def post_detail(request, slug):
             new_comment.post = post
             # Save the comment to the database
             new_comment.save()
+            messages.success(request, 'Comment successfully posted!')
     else:
         comment_form = CommentForm()
 
