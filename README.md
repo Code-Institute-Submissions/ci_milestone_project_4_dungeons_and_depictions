@@ -1,4 +1,4 @@
-----INSERT AM I RESPONSIVE IMAGE HERE**----
+![Dungeons and Depictions header image](media/readme_header_photo.jpg?raw=true "Dungeons & Depictions")
 
 Dungeons & Depictions
 
@@ -22,24 +22,17 @@ This project is for education purposes only.
     - [**Design choices**](#design-choices)
     - [**Wireframes**](#wireframes)
 
-2. [**Database Schema**](#database-schema)
-
-3. [**Features**](#features)
+2. [**Features**](#features)
     - [**Existing Features**](#existing-features)
     - [**Features Left to Implement**](#features-left-to-implement)
  
-4. [**Technologies used**](#technologies-used)
- 
+3. [**Technologies used**](#technologies-used)
+
+4. [**Database Schema**](#database-schema)
+
 5. [**Testing**](#testing)
-    - [**Code Validators**](#code-validators)
-    - [**Testing Devices**](#testing-devices)
-    - [**Testing Browsers**](#testing-browsers)
-    - [**Testers**](#testers)
-    - [**Feature Testing**](#feature-testing)
-    - [**Difficulties Encountered**](#difficulties-encountered)
  
 6. [**Deployment**](#deployment)
-    - [**How to run this project locally**](#how-to-run-this-project-locally)
  
 7. [**Credits**](#credits)
     - [**Content**](#content)
@@ -51,9 +44,9 @@ This project is for education purposes only.
  ---
  
 #### Project Goals
-There are currently an estimated 13.7 million active tabletop Dungeons & Dragons players worldwide. Since the inception of D&D in 1974, that number has continued to grow. And with D&D becoming more mainstream, projections are that the number of D&D players will continue to rise.
+There are currently an estimated 13.7 million active tabletop Dungeons & Dragons players worldwide. Since the inception of D&D in 1974, that number has continued to grow. With D&D becoming more mainstream, projections are that the number of D&D players will continue to rise.
 
-This project aims to create a site where D&D players can purchase posters, get their own unique one made and a community can form via the blogs for people who love the game.
+This project aims to create a site where D&D players can purchase artwork posters, get their own unique character made as one and a community can form via the blogs for people who love the game and love drawing.
  
 #### Developer Goals
 The developer's goal was to make a Full Stack Frameworks Django project for portfolio purposes.
@@ -67,7 +60,7 @@ The site owner's goal would be to have a place to where customers can place new 
 The user's goal is purchase new D&D artwork and to be able to have their own character artistically brought to life.
 
 #### User Stories
-Users stories can be found [here](https://docs.google.com/spreadsheets/d/1DikEybIFIieRvgfEDZgwBejrBPHho1Zs9w43oSDUnnY/edit?usp=sharing) on an external Google doc.
+Users stories can be found on an external Google doc  [here](https://docs.google.com/spreadsheets/d/1DikEybIFIieRvgfEDZgwBejrBPHho1Zs9w43oSDUnnY/edit?usp=sharing).
  
 #### Design Choices
 Dungeons & Depictions as designed to be responsive on desktop and across a range of smaller viewing devices. The smaller screens incur a change of navbar layout, footer content and various font and image size adjustments.
@@ -79,9 +72,12 @@ Dungeons & Depictions as designed to be responsive on desktop and across a range
 - The icons were all chosen for their obvious, commonly used meanings.
 
 **Colours** 
-- #9d0a0e shade of red was chosen as its this red that's heavily used across the D&D player handbooks and numerous manuals so users would have a strong assoication with it.
--  #e7e7db shade of grey was used for the navbar and footer elements as adds a nice contrast against center focus of white and its not too dominating to distract from anything.
-- Standard css black was used across the site as font color and buttons. Its easy to see and contrasts nicely againt the red and white.
+- `#9d0a0e`: ![#9d0a0e](https://via.placeholder.com/15/9d0a0e/000000?text=+) 
+    this shade of red was chosen as its this red that's heavily used across the D&D player handbooks and numerous manuals so users would have a strong assoication with it.
+- `#e7e7db`: ![#9d0a0e](https://via.placeholder.com/15/e7e7db/000000?text=+) 
+    this shade of grey was used for the navbar and footer elements as adds a nice contrast against center focus of white and its not too dominating to distract from anything.
+- `#000000`: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) 
+    black was used across the site as font color and button highlighting. Its easy to see and contrasts nicely againt the red and white.
 
 **Styling** 
   - Colours were kept as consistent as possible with also taking in visibility vs the background into consideration. 
@@ -95,15 +91,9 @@ Dungeons & Depictions as designed to be responsive on desktop and across a range
 - No audio files were deemed necessary for this project and would just slow downloading speeds while being a distraction.
  
 #### Wireframes
-For the wireframes, [Balsamiq Wireframes](https://balsamiq.com/) was used as its quick and very simple.
+For the wireframes, [Balsamiq Wireframes](https://balsamiq.com/) was used as it's quick and very simple.
 
 All of my wireframes for this project can be found in the [design](design/wireframes/?raw=true) folder, which contains both the [desktop](design/wireframes/desktop/?raw=true) and [mobile](design/wireframes/mobile/?raw=true) sub-directories respectively.
-
----
-## Database Schema
----
-
- INSERT DATABASE SCHEMA IMAGE HERE
 
 ---
 ## Features
@@ -113,7 +103,7 @@ All of my wireframes for this project can be found in the [design](design/wirefr
 **Register Account**
 - Anybody can register for free and create their own unique account. This is built using Django's authentication and authorization to validate profile data. Passwords are hashed for security purposes.
 
-**Change Delivery Info**
+**Update Delivery Info**
 - Users can update their delivery info on their profile page.
 
 **View Showcase**
@@ -160,6 +150,10 @@ All of my wireframes for this project can be found in the [design](design/wirefr
 
 **Delete Account**
 - Users should be given the opportunity to delete their account entirely. Currently they can register and edit their data, but not remove it from the database.
+
+**Social Media Sign In**
+- Users should be to create an account via their social media account. Would make the sign in more streamline.
+
 ---
 ## Technologies Used
  ---
@@ -171,6 +165,8 @@ All of my wireframes for this project can be found in the [design](design/wirefr
     - This project uses **GIMP** for photo editing needs. 
 - [Balsamic](https://balsamiq.com/)
     - This project uses **Balsamic** to do all wireframes. 
+- [QuickDBD](https://www.quickdatabasediagrams.com/)
+    - This project uses **QuickDBD** to do all database schemas. 
 ### Front-End Technologies
 - [Bootstrap](https://getbootstrap.com/)
     - This project uses **Bootstrap** as its base framework.
@@ -195,59 +191,24 @@ All of my wireframes for this project can be found in the [design](design/wirefr
     - This project uses **Heroku** to deploy its code.
 - [PostgreSQL](https://www.postgresql.org/)
     - Used as relational SQL database plugin via Heroku.
+
+---
+## Database Schema
+---
+
+![Dungeons and Depictions Regional Schema](media/regional_db_schema.jpg?raw=true "[Dungeons & Depictions Regional Schema")
+
 ---
 ## Testing
- ---
-#### Code Validators
-- [Dillinger](https://dillinger.io/)
-This was used for Markdown in this README.md.
- 
-- [W3](http://validator.w3.org/)
-This was used to check the HTML and CSS in this project.
- 
-- [JSHint](https://jshint.com/)
-This was used to check the JavaScript in this project.
+---
 
-- [PEP8](http://pep8online.com/)
-This was used to check the Python in this project.
- 
-#### Testing devices
-- Desktop 
-- iphone 6
-- Huawei P30 lite
- 
-#### Testing Browsers
-- Chrome 
-- Safari
-- Microsoft Edge
-- Mozilla Firefox
- 
-#### Testers
-Special thanks to:
-- Amy Buckley
-- Kevin O'Brien
+The testing information can be found in this separated [Testing](TESTING.md) file.
 
-#### Feature Testing
-- **Browse All Mods:** All mods in the database appear and expand as intended.
-- **Browse Mods by Category:** Mods break down accurately into their assigned categories and expand as intended.
-- **Add Mods:** Mods added appear in the browse section after submission as well as behind the scenes server side on MongoDB in the correct assigned collection. All input fields must be filled in or the page won't submit.
-- **Edit Mods:** All edits submit correctly and update the database as designed. All input fields must be filled in or the page won't submit.
-- **Delete Mods:** Mods deleted are fully removed from browser search and from the database.
-- **Category Control:** All categories create, edit and delete as intended. All input fields must be filled in or the page won't submit.
-- **Register:** All new accounts made are uploading to the database 'users' with user name and encrypted password as intended. All input fields must be filled in or the page won't submit. If exact details are already in the database, it won't won't let you make an identical account.
-- **Login:** Login will only happen if the correct username and password is submitted or else it returns that username/password is invalid.
- 
-#### Difficulties Encountered
-- The dropdown menu for the categories wouldn't work on first click and always required a second one to open. This was solved on handy advice on Slack from Simon Castagna.
- 
-- Category_name exists in both 'categories' and 'mods' collections. This led to some confusion on appropriate pathing for functions. If redoing the project, these would have been merged.
- 
-- A flight flicker of the screen occurs in the category dropdown section when page first loads. This is thought to be caused by custom css overriding Materialize's default. This still needs to be fixed.
- 
-- The site has NOT been optimized for mobile devices. As a result there is text overspill from title and buttons not fitting well into containers. All functionality does work though.
 ---
 ## Deployment
- ---
+---
+This project can be viewed live on Heroku: [https://dungeons-and-depictions.herokuapp.com/](https://dungeons-and-depictions.herokuapp.com/)
+
 ### How to run this project locally
 
 To run this project on your own IDE follow the instructions below:
@@ -259,82 +220,138 @@ The following **must be installed** on your machine:
 - [PIP3](https://pip.pypa.io/en/stable/installing/)
 - [Python 3](https://www.python.org/downloads/)
 - [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
-- An account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) or MongoDB running locally on your machine. 
 
 ### Instructions
-1. Save a copy of the github repository located at https://github.com/dof-bull/ci_milestone_project_3_rimworld_mod_locker by clicking the "download zip" button at the top of the page and extracting the zip file to your chosen folder. If you have Git installed on your system, you can clone the repository with the following command.
-```
-git clone https://github.com/dof-bull/ci_milestone_project_3_rimworld_mod_locker
-```
+1. Save a copy of the github repository located at https://github.com/dof-bull/ci_milestone_project_4_dungeons_and_depictions by clicking the "download zip" button at the top of the page and extracting the zip file to your chosen folder. If you have Git installed on your system, you can clone the repository with the following command:
+`git clone https://github.com/ci_milestone_project_4_dungeons_and_depictions`
 
 2. If possible open a terminal session in the unzip folder or cd to the correct location.
 
-3. A virtual environment is recommended for the Python interpreter, I recommend using Pythons built in virtual environment. Enter the command:
-```
-python -m .venv venv
-```  
-_NOTE: Your Python command may differ, such as python3 or py_
+3. If needed, Upgrade pip locally with:
+`pip3 install --upgrade pip.`
 
-4. Activate the .venv with the command:
-```
-.venv\Scripts\activate 
-```
-_Again this **command may differ depending on your operating system**, please check the [Python Documentation on virtual environments](https://docs.python.org/3/library/venv.html) for further instructions._
+4. Install all required modules with the command:
+`pip3 -r requirements.txt.`
 
-4. If needed, Upgrade pip locally with
-```
-pip3 install --upgrade pip.
-```
+5. In your local IDE create a file called `env.py`.
 
-5. Install all required modules with the command 
-```
-pip3 -r requirements.txt.
-```
+6. Inside `env.py`, create a SECRET_KEY variable.
 
-6. In your local IDE create a file called `env.py`.
+7. Make all migrations with the commands:
+`python3 manage.py makemigrations`
 
-7. Inside the env.py file, create a MONGO_DBNAME variable and a MONGO_URI to link to your own database. Please make sure to call your database `rimworld_mod_locker`, with 3 collections called `categories`, `mods` and `users`. 
+8. Run all migrations with the commands:
+`python3 manage.py migrate`
 
-8. You can now run the application with the command
-```
-python app.py
-```
+9. Now load the category data from the fixtures with:
+`python3 manage.py loaddata categories`
 
-9. You will get a pop up saying that a new port has been open and you can view it in your browser.
+10. Next load the commissions data (order is important!) from the fixtures with:
+`python3 manage.py loaddata commissions`
+
+11. You can now run the application with the command:
+`python3 manage.py runserver`
+
+13. You will get a pop up saying that a new port has been open and you can view it in your browser.
+
+In order to access the Django *Admin Panel*, you must generate a superuser and assign an admin username, email, and secure password.
+`python manage.py createsuperuser`
+
 
 ### Heroku Deployment
 
-To deploy Rimworld Mod Locker to heroku, take the following steps:
+This part assumes you have already deployed the project locall first (see above).
 
-1. Create a `requirements.txt` file using the terminal command `pip3 freeze > requirements.txt`.
+This site is currently deployed on [Heroku](https://www.heroku.com/) using the **master** branch on GitHub. Once you have the project setup locally, you can proceed to deploy it remotely with the following steps:
 
-2. Create a `Procfile` with the terminal command `echo web: python app.py > Procfile`.
+1. Create a **requirements.txt** file so Heroku can install the required dependencies to run the app:
+`pip3 freeze --local > requirements.txt`
 
-3. `git add` and `git commit` the new requirements and Procfile and then `git push` the project to GitHub.
+2. Create a **Procfile** to tell Heroku what type of application is being deployed using *gunicorn*, and how to run it and type into the file:
+`web: gunicorn dungeons_and_depictions.wsgi:application`
 
-3. Create a new app on the [Heroku website](https://dashboard.heroku.com/apps) by clicking the "New" button in your dashboard. Give it a name and set the region to Europe.
+3. Sign up for a free Heroku account, create your project app, and click the **Deploy** tab, at which point you can *Connect GitHub* as the Deployment Method, and select *Enable Automatic Deployment*.
+-
+4. In the Heroku **Resources** tab, navigate to the *Add-Ons* section and search for **Heroku Postgres**. Make sure to select the free *Hobby* level. This will allow you to have a remote database instead of using the local sqlite3 database, and can be found in the Settings tab. 
 
-4. From the heroku dashboard of your newly created application, click on "Deploy" > "Deployment method" and select GitHub.
+5. In the Heroku **Settings** tab, click on the *Reveal Config Vars* button to configure environmental variables. You will need to copy/paste the *.env* key value SECRET_KEY into the config variables.
 
-5. Confirm the linking of the heroku app to the correct GitHub repository.
+6. Your app should be successfully deploying  to Heroku at this point bit its still missing some key features.
 
-6. In the heroku dashboard for the application, click on "Settings" > "Reveal Config Vars".
+7. Update the *settings.py* file to connect the remote database using this Python package: `dj_database_url`
 
-7. Set the following config vars:
+8. Re-build the migrations and create a superuser to your new remote database using the instructions in the *local deployment* section above.
 
-| Key | Value |
- --- | ---
-IP | 0.0.0.0
-MONGO_URI | `mongodb+srv://<username>:<password>@<cluster_name>-qtxun.mongodb.net/<database_name>?retryWrites=true&w=majority`
-PORT | 8080
+9. Sign up for a free [Amazon AWS](https://aws.amazon.com/) account in order to host your *staticfiles* and *media* files. From the **S3 buckets** section, you'll need to create a new unique bucket. Follow these next steps to complete the setup:
 
-- To get you MONGO_URI read the MongoDB Atlas documentation [here](https://docs.atlas.mongodb.com/)
+**Permissions** > **CORS configuration**:
 
-8. In the heroku dashboard, click "Deploy".
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+<CORSRule>
+    <AllowedOrigin>*</AllowedOrigin>
+    <AllowedMethod>GET</AllowedMethod>
+    <AllowedMethod>HEAD</AllowedMethod>
+    <MaxAgeSeconds>3000</MaxAgeSeconds>
+    <AllowedHeader>Authorization</AllowedHeader>
+</CORSRule>
+</CORSConfiguration>
+```
 
-9. In the "Manual Deployment" section of this page, make sure the master branch is selected and then click "Deploy Branch".
+**Permissions** > **Bucket Policy**:
 
-10. The site is now successfully deployed.
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::<x>/*"
+        }
+    ]
+}
+```
+
+*! IMPORTANT ! - on the **Resource** line above, be sure to replace `<x>` with your **AWS bucket arn** details, but retain the `/*` at the end.* It should look similar to this:
+    - `"Resource": "arn:aws:s3:::my-bucket-name/*"`
+
+10. From here, you'll need to navigate to the **IAM** section of AWS.
+    - Create a *New Group* and be sure to select your existing S3 Bucket details to attach.
+    - Create a *New Policy* and a *New User* in the IAM section as well, then attach these to the Group you just built. From the new user you should get the below variables to add to your Heroku cofig var:
+    - `AWS_ACCESS_KEY_ID`
+    - `AWS_SECRET_ACCESS_KEY`
+    You should also add the following onfig var to Heroku and set its value to `True`:
+    - `USE_AWS`
+
+11. In your CLI-terminal, you should now be able to push the static files to AWS if everything is configured properly using this command:
+`python manage.py collectstatic`
+
+12. Sign up for a free [Stripe](https://stripe.com) account. Navigate to the **Developers** section, and click on **API Keys**. Add these to ypur Heroku config vars. These keys are:
+`Publishable Key`: **STRIPE_PUBLIC_KEYy**
+`Secret Key`: **STRIPE_SECRET_KEY**
+
+13. While in the  **Developers** section of Stripe, go down to Webhooks and click **Add endpoint** on the top right. Add the below as your webhook endpoint url and allows all events:
+`https://dungeons-and-depictions.herokuapp.com/checkout/wh/`
+
+14. To set up working emails, go to gmail.com and create an account.
+    - Go to settings
+    - Accounts and Imports
+    - Other Google Account settings
+    - Security
+    - Turn on 2-Step Verification
+    - This will unlock App passwords underneath
+    - Create a new app password and note the given code
+    
+    Go to Heroku config vars and enter:
+    `EMAIL_HOST_PASS` and your new password gmail gave you.
+    `EMAIL_HOST_USER` and the gmail email account.
+
+The site is now successfully deployed.
+
  ---
 ## Credits
  ---
@@ -367,6 +384,9 @@ https://djangocentral.com/creating-comments-system-with-django/
 
 - DungeonVault for article on estimated playerbase.
 https://dungeonvault.com/how-many-dnd-players-are-there-worldwide/
+
+- Responsive Deisgns for their reponsiveness generator.
+http://ami.responsivedesign.is/
 
 ### Media
 All character artwork belongs to their respective owners and is not being used in any commercial way in this educational project.
@@ -407,9 +427,3 @@ All character artwork belongs to their respective owners and is not being used i
 (https://github.com/AJGreaves)
 - TravelTimN for his excellent README.md templates.
 (https://github.com/TravelTimN)
- 
-
-
-
-
-
