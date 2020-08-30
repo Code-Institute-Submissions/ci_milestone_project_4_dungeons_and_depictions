@@ -54,7 +54,7 @@ The developer's goal was to make a Full Stack Frameworks Django project for port
 The developer is also a frequent player of Dungeons & Dragons and a lover of artwork so the two things come together.
  
 #### Site Owner Goals
-The site owner's goal would be to have a place to where customers can place new character artwork commission with them, to sell the commissions they had previously created as posters and a blog to enchance SEO of site to attract more business.
+The site owner's goal would be to have a place where customers can place new character artwork commission with them, to sell the commissions they had previously created as posters and a blog to enhance SEO of the site to attract more business.
  
 #### User Goals
 The user's goal is purchase new D&D artwork and to be able to have their own character artistically brought to life.
@@ -63,28 +63,28 @@ The user's goal is purchase new D&D artwork and to be able to have their own cha
 Users stories can be found on an external Google doc  [here](https://docs.google.com/spreadsheets/d/1DikEybIFIieRvgfEDZgwBejrBPHho1Zs9w43oSDUnnY/edit?usp=sharing).
  
 #### Design Choices
-Dungeons & Depictions as designed to be responsive on desktop and across a range of smaller viewing devices. The smaller screens incur a change of navbar layout, footer content and various font and image size adjustments.
+Dungeons & Depictions was designed to be responsive on desktop and across a range of smaller viewing devices. The smaller screens incur a change of navbar layout, footer content and various font and image size adjustments.
 
 **Font** 
-- MedievalSharp was chosen as to keep the fantasy theme across the site. Sans Serif was chosen as a fallback as its a safe, universally readable font.
+- MedievalSharp was chosen to keep the fantasy theme across the site. Sans Serif was chosen as a fallback as its a safe, universally readable font.
 
 **Icons** 
 - The icons were all chosen for their obvious, commonly used meanings.
 
 **Colours** 
 - `#9d0a0e`: ![#9d0a0e](https://via.placeholder.com/15/9d0a0e/000000?text=+) 
-    this shade of red was chosen as its this red that's heavily used across the D&D player handbooks and numerous manuals so users would have a strong assoication with it.
+    This shade of red was chosen as it's this red that's heavily used across the D&D player handbooks and numerous manuals so users would have a strong association with it.
 - `#e7e7db`: ![#9d0a0e](https://via.placeholder.com/15/e7e7db/000000?text=+) 
-    this shade of grey was used for the navbar and footer elements as adds a nice contrast against center focus of white and its not too dominating to distract from anything.
+    This shade of grey was used for the navbar and footer elements as it adds a nice contrast against the center focus of white and it's not too dominating to distract from anything.
 - `#000000`: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) 
-    black was used across the site as font color and button highlighting. Its easy to see and contrasts nicely againt the red and white.
+    Black was used across the site as font color and button highlighting. It's easy to see and contrasts nicely against the red and white.
 
 **Styling** 
   - Colours were kept as consistent as possible with also taking in visibility vs the background into consideration. 
   - Where visibility was semi-problematic, hover effects were added so these buttons would be more visible.
 
 **Backgrounds:** 
-- The background photo of the landing page was chosen as gave a strong intro to the artwork of the site and scaled nicely to mobile view.
+- The background photo of the landing page was chosen as it gave a strong intro to the artwork of the site and scaled nicely to mobile view.
 - A white overlay was used for the other pages to enable clear viewing and strong contrast against buttons and artwork.
 
 **Audio Files:** 
@@ -122,37 +122,36 @@ All of my wireframes for this project can be found in the [design](design/wirefr
 - Users can add any of the existing commission to their cart to buy as a poster.
 
 **Create a New Commission**
-- Users can fill out a form and request a new commission specific to them. This creates a new commission which they then can add to cart as normal.
+- Users can fill out a form and request a new commission specific to them. This creates a new commission which can then be added to cart as normal.
 
 **Purchase Posters or New Commission via Stripe**
-- Users can fill out a form and request a new commission specific to them. This creates a new commission which they then can add to cart as normal.
-
+- Users can fill out a form and request a new commission specific to them. This creates a new commission which they can then add to cart as normal.
 
 **View Blog**
 - Users can view blogs by the artist.
 
 **Comment on Blog Posts**
-- Users can add comments to specific blog posts though these require approval by admin before being visibile.
+- Users can add comments to specific blog posts though these require approval by admin before being visible.
 
 **Admin Status**
 - As Admin (ie: superuser), there are quite a few additional features across the site that no other user has access to such as creating or deleting users accounts and adding, editing or delete any commissions or blog posts.
 - The navbar has an additional link to the Django Admin Panel and a link to quickly add a new commission to the showcase.
-- Admins can edit aor delete commissions directly in the showcase.
-- Admins approval is needed to approve any comments on blog.
+- Admins can edit or delete commissions directly in the showcase.
+- Admins approval is needed to approve any comments on blog posts.
 
 ### Features Left to Implement
 
 **Users Being Able to Request Changes** 
-- The user who commisssioned a new artwork would be able to see the progress of it and ask for minor changes to be made before completation.
+- The user who commissioned a new artwork would be able to see the progress of it and ask for minor changes to be made before completion.
 
 **Postal Tracking Number**
-- Users should be able to recieve a trackign number once products had been posted out to them.
+- Users should be able to receive a tracking number once products have been posted out to them.
 
 **Delete Account**
 - Users should be given the opportunity to delete their account entirely. Currently they can register and edit their data, but not remove it from the database.
 
 **Social Media Sign In**
-- Users should be to create an account via their social media account. Would make the sign in more streamline.
+- Users should be able to create an account via their social media account. Would make the sign in more streamline.
 
 ---
 ## Technologies Used
@@ -184,13 +183,13 @@ All of my wireframes for this project can be found in the [design](design/wirefr
 - [Python](https://www.python.org/)
     - Used as the back-end programming language.
 - [JavaScript](https://www.javascript.com/)
-    - Used as a secondry back-end programming language.
+    - Used as a secondary back-end programming language.
 - [Django](https://www.djangoproject.com/)
     - Used as the Python web framework.
 - [Heroku](https://heroku.com/)
     - This project uses **Heroku** to deploy its code.
 - [PostgreSQL](https://www.postgresql.org/)
-    - Used as relational SQL database plugin via Heroku.
+    - Used as a relational SQL database plugin via Heroku.
 
 ---
 ## Database Schema
@@ -260,7 +259,7 @@ In order to access the Django *Admin Panel*, you must generate a superuser and a
 
 ### Heroku Deployment
 
-This part assumes you have already deployed the project locall first (see above).
+This part assumes you have already deployed the project locally first (see above).
 
 This site is currently deployed on [Heroku](https://www.heroku.com/) using the **master** branch on GitHub. Once you have the project setup locally, you can proceed to deploy it remotely with the following steps:
 
@@ -276,7 +275,7 @@ This site is currently deployed on [Heroku](https://www.heroku.com/) using the *
 
 5. In the Heroku **Settings** tab, click on the *Reveal Config Vars* button to configure environmental variables. You will need to copy/paste the *.env* key value SECRET_KEY into the config variables.
 
-6. Your app should be successfully deploying  to Heroku at this point bit its still missing some key features.
+6. Your app should be successfully deploying  to Heroku at this point but it's still missing some key features.
 
 7. Update the *settings.py* file to connect the remote database using this Python package: `dj_database_url`
 
@@ -321,16 +320,16 @@ This site is currently deployed on [Heroku](https://www.heroku.com/) using the *
 
 10. From here, you'll need to navigate to the **IAM** section of AWS.
     - Create a *New Group* and be sure to select your existing S3 Bucket details to attach.
-    - Create a *New Policy* and a *New User* in the IAM section as well, then attach these to the Group you just built. From the new user you should get the below variables to add to your Heroku cofig var:
+    - Create a *New Policy* and a *New User* in the IAM section as well, then attach these to the Group you just built. From the new user you should get the below variables to add to your Heroku config vars:
     - `AWS_ACCESS_KEY_ID`
     - `AWS_SECRET_ACCESS_KEY`
-    You should also add the following onfig var to Heroku and set its value to `True`:
+    You should also add the following config var to Heroku and set its value to `True`:
     - `USE_AWS`
 
 11. In your CLI-terminal, you should now be able to push the static files to AWS if everything is configured properly using this command:
 `python manage.py collectstatic`
 
-12. Sign up for a free [Stripe](https://stripe.com) account. Navigate to the **Developers** section, and click on **API Keys**. Add these to ypur Heroku config vars. These keys are:
+12. Sign up for a free [Stripe](https://stripe.com) account. Navigate to the **Developers** section, and click on **API Keys**. Add these to your Heroku config vars. These keys are:
 `Publishable Key`: **STRIPE_PUBLIC_KEYy**
 `Secret Key`: **STRIPE_SECRET_KEY**
 
@@ -369,7 +368,7 @@ https://www.tradegecko.com/free-tools/sku-generator
 - Fantasy Name Generator
 https://www.fantasynamegenerators.com/
 
-- Stack Overflow for lesson on linebreaks.
+- Stack Overflow for the lesson on linebreaks.
 https://stackoverflow.com/questions/37133336/new-line-on-django-admin-text-field?rq=1
 
 - CSS-tricks for the lesson on a CSS triangle.
@@ -382,10 +381,10 @@ https://hellowebbooks.com/news/tutorial-setting-up-a-contact-form-with-django/
 https://djangocentral.com/building-a-blog-application-with-django/
 https://djangocentral.com/creating-comments-system-with-django/
 
-- DungeonVault for article on estimated playerbase.
+- DungeonVault for the article on estimated player base.
 https://dungeonvault.com/how-many-dnd-players-are-there-worldwide/
 
-- Responsive Deisgns for their reponsiveness generator.
+- Responsive Designs for their device responsiveness generator.
 http://ami.responsivedesign.is/
 
 ### Media
