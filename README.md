@@ -52,6 +52,8 @@ https://djangocentral.com/building-a-blog-application-with-django/
 Django Central for the tutorial on adding a comment system.
 https://djangocentral.com/creating-comments-system-with-django/
 
+DungeonVault.com for article on estimated playerbase.
+https://dungeonvault.com/how-many-dnd-players-are-there-worldwide/
 
 Character Artwork:
 
