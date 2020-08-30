@@ -1,4 +1,3 @@
-from urllib import request
 from django import forms
 from crispy_forms.helper import FormHelper
 

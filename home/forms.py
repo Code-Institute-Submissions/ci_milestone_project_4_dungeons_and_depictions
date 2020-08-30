@@ -16,6 +16,8 @@ class ContactForm(forms.Form):
 
         self.fields['contact_name'].label = "Name:"
         self.fields['contact_email'].label = "Email:"
-        self.fields['contact_order_number'].label = "Order Number (if applicable):"
+        self.fields[
+                    'contact_order_number'
+                   ].label = "Order Number (if applicable):"
         self.fields['content'].label = "How can we help?"
         self.helper.add_input(Submit('submit', 'Submit'))
