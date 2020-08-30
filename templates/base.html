@@ -59,13 +59,16 @@
 </head>
 
 <body>
+	<!-- Header -->
 	<header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
+			<!-- Logo -->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
                     <h2 class="logo-font text-black my-0">Dungeons & Depictions</h2>
                 </a>
             </div>
+            <!-- Search Bar -->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'commissions' %}">
                     <div class="input-group w-100">
@@ -82,6 +85,7 @@
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+					<!-- My Account Dropdown -->
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
@@ -92,17 +96,21 @@
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
+								<!-- Admin Controls -->
 									<a href="{% url 'admin:index' %}" class="dropdown-item">Admin</a>
                                     <a href="{% url 'add_commission' %}" class="dropdown-item">Quick Add</a>
                                 {% endif %}
+								<!-- Logged in user view -->
                                 <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                                 <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                             {% else %}
+								<!-- Non-logged in view -->
                                 <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
                                 <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                             {% endif %}
                         </div>
                     </li>
+					<!-- Shopping Cart icon with totals is any -->
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_cart' %}">
                             <div class="text-center">
@@ -120,6 +128,7 @@
                 </ul>
             </div>
         </div>
+		<!-- Creates container for main nav on desktop or mobile dropdown -->
         <div class="row bg-white">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -132,6 +141,7 @@
     </header>
 	
 	{% if messages %}
+		<!-- Toast Window -->
         <div class="message-container">
             {% for message in messages %}
                 {% with message.level as level %}
