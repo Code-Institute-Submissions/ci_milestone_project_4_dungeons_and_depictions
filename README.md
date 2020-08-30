@@ -203,6 +203,12 @@ All of my wireframes for this project can be found in the [design](design/wirefr
 
 The testing information can be found in this separated [Testing](TESTING.md) file.
 
+All features working as expected bar one.
+
+Last minute error has occurred where going into an individual blog causes a Server 500 error.
+It has to be soemthing to do with Heroku's PostgreSQL as everything working fine on Gitpod Dev server.
+This is very regretful as comment section on blog posts had been recently upgraded with using user's username for comments.
+
 ---
 ## Deployment
 ---
