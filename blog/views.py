@@ -38,5 +38,4 @@ def post_detail(request, slug):
     return render(request, template_name, {'post': post,
                                            'comments': comments,
                                            'new_comment': new_comment,
-                                           'comment_form': comment_form,
-                                           'on_blog_page': True})
+                                           'comment_form': comment_form})
